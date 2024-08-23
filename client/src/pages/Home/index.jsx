@@ -1,12 +1,19 @@
 import React from 'react';
-import { Button } from '@material-tailwind/react';
+import NavbarPage from '../../components/LandingPage/NavbarPage';
+import Footer from '../../components/LandingPage/Footer';
+import Carousel from '../../components/LandingPage/Carousel';
 
 const Home = () => {
     return (
-        <>
-            <h1>hola</h1>
-            <Button>boton</Button>
-        </>
+        <div>
+            <NavbarPage />
+            <div className=''>
+                <Carousel />
+            </div>
+            <div className=''>
+                <Footer />
+            </div>
+        </div>
     );
 };
 

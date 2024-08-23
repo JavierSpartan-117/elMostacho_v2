@@ -5,7 +5,7 @@ import {
 import React from 'react';
 
 import Home from "../pages/Home";
-import LogIn from "../pages/LogIn";
+import Reservation from "../pages/Reservation";
 
 const BrowserRouter = createBrowserRouter([
     {
@@ -13,8 +13,8 @@ const BrowserRouter = createBrowserRouter([
         element: <Home />,
     },
     {
-        path: "/login",
-        element: <LogIn />,
+        path: "/reservar-cita",
+        element: <Reservation />,
     },
 ]);
 
